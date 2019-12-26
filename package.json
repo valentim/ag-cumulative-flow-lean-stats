@@ -1,6 +1,6 @@
 {
   "name": "ag-cumulative-flow-lean-stats",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "UI Components of lean stats",
   "author": "Thiago Valentim",
   "license": "AGPL-3.0-or-later",
@@ -21,7 +21,11 @@
     "predeploy": "cd example && yarn install && yarn run build",
     "deploy": "gh-pages -d example/build"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.26",
+    "@fortawesome/free-solid-svg-icons": "^5.12.0",
+    "@fortawesome/react-fontawesome": "^0.1.8"
+  },
   "peerDependencies": {
     "prop-types": "^15.5.4",
     "react": "^15.0.0 || ^16.0.0",

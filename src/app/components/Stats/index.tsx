@@ -3,7 +3,8 @@
  */
 
 import * as React from 'react'
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faChartPie } from '@fortawesome/free-solid-svg-icons'
 import './styles.css'
 
 export type Props = {
@@ -19,7 +20,7 @@ export default class StatCard extends React.Component<Props> {
           <div className="portlet-handler">
             <div className="row row-flush" >
               <div className="col-2 bg-inverse text-center d-flex align-items-center justify-content-center rounded-left">
-                <em className="fas fa-code-branch fa-2x"></em>
+                <FontAwesomeIcon icon={faChartPie} />
               </div>
               <div className="col-10">
                 <div className="card-body text-center">
