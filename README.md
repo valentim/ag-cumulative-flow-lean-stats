@@ -2,8 +2,6 @@
 
 > UI Components of lean stats
 
-[![NPM](https://img.shields.io/npm/v/ag-cumulative-flow-lean-stats.svg)](https://www.npmjs.com/package/ag-cumulative-flow-lean-stats) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
-
 ## Install
 
 ```bash
@@ -15,12 +13,12 @@ npm install --save ag-cumulative-flow-lean-stats
 ```tsx
 import * as React from 'react'
 
-import MyComponent from 'ag-cumulative-flow-lean-stats'
+import StatCard from 'ag-cumulative-flow-lean-stats'
 
 class Example extends React.Component {
   render () {
     return (
-      <MyComponent />
+      <StatCard number="2" statType="LeadTime" statName="Lead Time" />
     )
   }
 }
@@ -28,4 +26,4 @@ class Example extends React.Component {
 
 ## License
 
-AGPL-3.0-or-later © [Thiago Valentim](https://github.com/Thiago Valentim)
+AGPL-3.0-or-later © [AG Cumulative flow | Lean Stats](https://github.com/valentim/ag-cumulative-flow-lean-stats)
