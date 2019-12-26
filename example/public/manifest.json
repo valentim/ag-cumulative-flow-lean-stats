@@ -1,0 +1,8 @@
+{
+  "short_name": "ag-cumulative-flow-lean-stats",
+  "name": "ag-cumulative-flow-lean-stats",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
