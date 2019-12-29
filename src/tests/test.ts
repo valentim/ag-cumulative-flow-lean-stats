@@ -1,7 +1,7 @@
-import ExampleComponent from '../app/components/Stats'
+import StatCard from '..'
 
-describe('ExampleComponent', () => {
+describe('StatCard', () => {
   it('is truthy', () => {
-    expect(ExampleComponent).toBeTruthy()
+    expect(StatCard).toBeTruthy()
   })
 })
