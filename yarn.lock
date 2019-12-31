@@ -4855,6 +4855,11 @@ https-browserify@^1.0.0:
   resolved "https://registry.yarnpkg.com/https-browserify/-/https-browserify-1.0.0.tgz#ec06c10e0a34c0f2faf199f7fd7fc78fffd03c73"
   integrity sha1-7AbBDgo0wPL68Zn3/X/Hj//QPHM=
 
+humanize-duration-ts@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/humanize-duration-ts/-/humanize-duration-ts-2.1.0.tgz#e4b21fcc034d885adde7e741c6789864bc753b55"
+  integrity sha512-57Tn+2A+U/2cAJdiSVuU952wo8QyIfLcpNUE56LaY0zp5G3bFd+nzLlMel9Ar7Rt5OrP8jlmoclnBzd7A4Ih2w==
+
 humanize-url@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/humanize-url/-/humanize-url-1.0.1.tgz#f4ab99e0d288174ca4e1e50407c55fbae464efff"

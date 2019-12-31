@@ -1,7 +1,7 @@
 import * as React from 'react'
 
 export type Props = {
-  number: number,
+  number: number | string,
   statName: string
 }
 
