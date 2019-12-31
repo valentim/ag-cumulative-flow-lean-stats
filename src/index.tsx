@@ -5,7 +5,7 @@ import Card from './app/components/Stats/Card'
 export type Props = {
   number: number,
   statName: string,
-  statType: string
+  statType?: string
 }
 
 export default class StatCard extends React.Component<Props> {
