@@ -7,10 +7,11 @@ import './styles.css'
 import { StatsProps } from './StatsProps';
 
 export interface PeriodStatsProps extends StatsProps {
-    lang: string;
+    lang?: string;
+    statType?: string;
 }
 
-export default class PeriodCard extends React.Component<PeriodStatsProps> {
+export class PeriodCard extends React.Component<PeriodStatsProps> {
     private getIconByStatsType(statsType: string | undefined): IconDefinition {
         const newStatsType = statsType || 'default';
         const icons = {
