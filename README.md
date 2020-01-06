@@ -2,6 +2,10 @@
 
 > UI Components of lean stats
 
+It is a simple library written in React + Typescript and its objective is provide a component to render cards with lean statistics for any interface that uses React
+
+[![NPM](https://img.shields.io/npm/v/ag-cumulative-flow-lean-stats.svg)](https://www.npmjs.com/package/ag-cumulative-flow) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+
 ## Install
 
 ```bash

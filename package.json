@@ -1,8 +1,8 @@
 {
   "name": "ag-cumulative-flow-lean-stats",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "UI Components of lean stats",
-  "author": "Thiago Valentim",
+  "author": "Thiago Valentim - AgileStats",
   "license": "AGPL-3.0-or-later",
   "repository": "valentim/ag-cumulative-flow-lean-stats",
   "main": "dist/index.js",
